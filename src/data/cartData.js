@@ -1,0 +1,85 @@
+export const initialCartItems = [
+  {
+    id: 1,
+    name: 'Blush Heritage Lehenga',
+    category: 'Lehengas',
+    price: 12099,
+    originalPrice: 18999,
+    discountBadge: 'Save 36%',
+    size: 'M',
+    color: 'Dusty Pink',
+    quantity: 1,
+    image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 2,
+    name: 'Sage Embroidered Suit',
+    category: 'Kurtas',
+    price: 5499,
+    originalPrice: 7999,
+    discountBadge: 'Save 31%',
+    size: 'L',
+    color: 'Sage Green',
+    quantity: 1,
+    image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 3,
+    name: 'Royal Purple Lehenga',
+    category: 'Lehengas',
+    price: 15999,
+    originalPrice: 21999,
+    discountBadge: 'Save 27%',
+    size: 'M',
+    color: 'Purple',
+    quantity: 1,
+    image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80',
+  },
+];
+
+export const cartRecommendedProducts = [
+  {
+    id: 101,
+    name: 'Ivory Bloom Saree',
+    category: 'Sarees',
+    price: 4999,
+    originalPrice: 6999,
+    badge: null,
+    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
+    colors: ['#F7F4EF', '#E8B4B8', '#D4AF37'],
+    size: 'Free Size'
+  },
+  {
+    id: 102,
+    name: 'Golden Hour Sharara Set',
+    category: 'Ethnic Wear',
+    price: 7999,
+    originalPrice: 11999,
+    badge: null,
+    image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80',
+    colors: ['#D4AF37', '#E8B4B8', '#F7F4EF'],
+    size: 'M'
+  },
+  {
+    id: 103,
+    name: 'Meadow Kurta Set',
+    category: 'Kurtas',
+    price: 3499,
+    originalPrice: 4999,
+    badge: null,
+    image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80',
+    colors: ['#A3B19B', '#F7F4EF', '#1F3A60'],
+    size: 'S'
+  },
+  {
+    id: 104,
+    name: 'Lavender Co-ord Set',
+    category: 'Co-ord Sets',
+    price: 3299,
+    originalPrice: 4499,
+    badge: null,
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+    colors: ['#E8B4B8', '#F7F4EF', '#A3B19B'],
+    size: 'M'
+  },
+];
