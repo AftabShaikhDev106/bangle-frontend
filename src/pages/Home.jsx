@@ -3,6 +3,7 @@ import TopBar from '../components/layout/TopBar'
 import NavBar from '../components/layout/NavBar'
 import Footer from '../components/layout/Footer'
 
+import HeroCarousel from '../components/home/HeroCarousel'
 import HeroSection from '../components/home/HeroSection'
 import CategoryBar from '../components/home/CategoryBar'
 import ShopByCategorySection from '../components/home/ShopByCategorySection'
@@ -26,7 +27,10 @@ const Home = () => {
 
       {/* Landing Page Body Sections */}
       <main className="flex-grow">
-        {/* 1. Hero Section */}
+        {/* 1. Top Hero Carousel Banner */}
+        <HeroCarousel />
+
+        {/* 2. Hero Editorial Introduction */}
         <HeroSection />
 
         {/* 2. Scrollable Category Avatar Bar */}
