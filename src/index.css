@@ -5,21 +5,21 @@
   --font-sans: "Inter", sans-serif;
   --font-serif: "Cormorant Garamond", serif;
 
-  --color-primary: #ffffff;
-  --color-secondary: #F8F6F3;
-  --color-tertiary: #1B1B1B;
+  --color-primary: #FAF0E6;
+  --color-secondary: #f8f6f3;
+  --color-tertiary: #1b1b1b;
   --color-placeholder: #696969;
   --color-heading: #b58a5a;
-  
-  --color-sand: #EFECE6;
-  --color-linen: #F6F4F0;
-  --color-champagne: #E6DFD3;
-  --color-taupe: #D7CBBC;
-  --color-warm-dark: #2C2621;
-  --color-gold-accent: #C49A6C;
-  --color-terracotta: #B86B53;
-  --color-blush: #EDE4DF;
-  --color-olive-grey: #D5D3C8;
+
+  --color-sand: #efece6;
+  --color-linen: #f6f4f0;
+  --color-champagne: #e6dfd3;
+  --color-taupe: #d7cbbc;
+  --color-warm-dark: #2c2621;
+  --color-gold-accent: #c49a6c;
+  --color-terracotta: #b86b53;
+  --color-blush: #ede4df;
+  --color-olive-grey: #d5d3c8;
 }
 
 /* Reset & Utilities */
@@ -44,7 +44,12 @@ html {
 
 @media (min-width: 1024px) {
   :root {
-    --hero-mask: linear-gradient(to right, transparent 0%, black 22%, black 100%);
+    --hero-mask: linear-gradient(
+      to right,
+      transparent 0%,
+      black 22%,
+      black 100%
+    );
   }
 }
 
@@ -54,6 +59,6 @@ html {
 }
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

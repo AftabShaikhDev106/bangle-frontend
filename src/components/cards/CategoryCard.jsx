@@ -8,12 +8,13 @@ const CategoryCard = ({ category, className = '', style = {} }) => {
   let targetLink = '/women'
   if (id === 'jewelry') targetLink = '/jewelry'
   if (id === 'wedding' || id === 'party') targetLink = '/collections'
+  
 
   return (
     <Link
       to={targetLink}
       style={style}
-      className={`group relative overflow-hidden rounded-[20px] sm:rounded-[24px] w-full min-h-[250px] cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 block ${className}`}
+      className={`group relative overflow-hidden rounded-[20px] sm:rounded-[24px] w-full cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 block ${className}`}
     >
       {/* Background Image */}
       {image && (

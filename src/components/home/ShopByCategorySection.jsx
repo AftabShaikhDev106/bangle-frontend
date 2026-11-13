@@ -39,16 +39,20 @@ const ShopByCategorySection = () => {
                 "wedding . party"
                 "wedding jewelry jewelry"
               `,
+              alignItems: 'stretch',
             }}
           >
-            {curatedCategories.map((category) => (
+            {curatedCategories.map((category) => {
+              
+              return (
               <CategoryCard
                 key={category.id}
                 category={category}
                 style={{ gridArea: gridAreas[category.id] || category.id }}
                 className="h-full"
               />
-            ))}
+            )
+            })}
           </div>
 
           {/* Mobile Layout (< md): Clean 1-Column Vertical List */}
