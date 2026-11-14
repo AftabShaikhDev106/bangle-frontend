@@ -27,14 +27,14 @@ const Home = () => {
 
       {/* Landing Page Body Sections */}
       <main className="flex-grow">
+        {/* Category Circle Stories Bar (Just below NavBar) */}
+        <CategoryBar />
+
         {/* 1. Top Hero Carousel Banner */}
         <HeroCarousel />
 
         {/* 2. Hero Editorial Introduction */}
         <HeroSection />
-
-        {/* 2. Scrollable Category Avatar Bar */}
-        <CategoryBar />
 
         {/* 3. Shop by Category (Curated Edits Grid) */}
         <ShopByCategorySection />

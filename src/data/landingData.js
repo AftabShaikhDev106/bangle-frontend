@@ -19,6 +19,51 @@ export const navCategories = [
   { name: 'CONTACT', href: '/contact' },
 ];
 
+export const circleCategories = [
+  {
+    id: 1,
+    name: 'NEW ARRIVALS',
+    href: '/collections',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=400&q=80',
+    alt: 'New Arrivals luxury fashion collection',
+  },
+  {
+    id: 2,
+    name: 'DRESSES',
+    href: '/women?category=dresses',
+    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=400&q=80',
+    alt: 'Dresses and gowns collection',
+  },
+  {
+    id: 3,
+    name: 'TOPS',
+    href: '/women?category=tops',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
+    alt: 'Tops and shirts collection',
+  },
+  {
+    id: 4,
+    name: 'LINEN',
+    href: '/collections',
+    image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=400&q=80',
+    alt: 'Pure linen series edit',
+  },
+  {
+    id: 5,
+    name: 'JEWELRY',
+    href: '/jewelry',
+    image: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=400&q=80',
+    alt: 'Handcrafted gold jewelry and bangles',
+  },
+  {
+    id: 6,
+    name: 'ACCESSORIES',
+    href: '/collections',
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&q=80',
+    alt: 'Bags and accessories',
+  },
+];
+
 export const quickCategories = [
   { id: 1, name: 'Women', color: 'from-amber-100 to-amber-200' },
   { id: 2, name: 'New', color: 'from-stone-200 to-stone-300' },
